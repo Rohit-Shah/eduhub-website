@@ -11,6 +11,10 @@
   --side-nav-shadow: -0.3rem 0.2rem 1.6rem 0.6rem rgba(64, 64, 64, 0.1);
   --border-radius: 1.5rem;
   --border-radius-circle: 100%;
+  --socials-linkedin-color: rgb(12, 77, 161);
+  --socials-facebook-color: #1877f2;
+  --socials-instagram-color: hotpink;
+  --socials-behance-color: blue;
 }
 
 html {
@@ -270,8 +274,17 @@ hr {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.member-socials i:hover {
-  color: var(--logo-blue);
+.member-socials .fa-linkedin:hover{
+  color: var(--socials-linkedin-color);
+}
+.member-socials .fa-facebook-square:hover{
+  color: var(--socials-facebook-color);
+}
+.member-socials .fa-instagram:hover{
+  color: var(--socials-instagram-color);
+}
+.member-socials .fa-behance:hover{
+  color: var(--socials-behance-color);
 }
 
 
